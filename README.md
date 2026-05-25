@@ -27,3 +27,7 @@ remove-gd-addon Clock
 ```bash
 push-all-addons
 ```
+
+## Dependencies
+
+- [ClockResource](https://github.com/ChillCube/ClockResource)
