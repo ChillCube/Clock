@@ -2,7 +2,6 @@ extends Node
 class_name Clock
 
 @export var time_resource : ClockResource;
-@export var second_length : float = 1;
 var timer : Timer;
 
 signal a_minute_passed
@@ -13,7 +12,7 @@ func _ready() -> void:
 	timer = Timer.new();
 	timer.one_shot = false;
 	timer.autostart = true;
-	timer.wait_time = second_length;
+	timer.wait_time = time_resource.second_length;
 	add_child(timer);
 	timer.connect("timeout", _on_time_out)
 

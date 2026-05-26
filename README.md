@@ -31,3 +31,8 @@ push-all-addons
 ## Dependencies
 
 - [ClockResource](https://github.com/ChillCube/ClockResource)
+
+## Used By
+1 other ChillCube addon(s) depend on this:
+
+- [TimeUnitDisplay2D](https://github.com/ChillCube/TimeUnitDisplay2D)
